@@ -1,0 +1,14 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+auth:
+  type: rest
+  resource: App\Controller\REST\AuthController
+
+profile:
+  type: rest
+  resource: App\Controller\REST\ProfileController
+
+participant:
+  type: rest
+  resource: App\Controller\REST\ParticipantController
