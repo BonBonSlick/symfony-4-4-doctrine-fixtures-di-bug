@@ -14,12 +14,12 @@ security:
         dev:
             pattern: ^/(_(profiler|wdt)|css|images|js)/
             security: false
-        main:
-            anonymous: ~
-            guard:
-                authenticators:
-                    - App\Security\UserAuthenticator
-            stateless: true
+#        main:
+#            anonymous: ~
+#            guard:
+#                authenticators:
+#                    - App\Security\UserAuthenticator
+#            stateless: true
 
             # activate different ways to authenticate
             # https://symfony.com/doc/current/security.html#firewalls-authentication
